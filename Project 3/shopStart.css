@@ -1,0 +1,25 @@
+body {
+  background: radial-gradient(
+    rgb(169, 243, 162),
+    rgb(26, 240, 144),
+    rgb(19, 215, 110),
+    rgb(2, 144, 63)
+  );
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
